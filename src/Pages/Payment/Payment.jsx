@@ -52,7 +52,7 @@ function Payment() {
         url: `/payment/create?total=${total * 100}`,
       });
 
-      // console.log(response.data);
+      console.log(response.data);
 
       /******** client conformation *********/
       const clientSecret = response.data?.clientSecret;
